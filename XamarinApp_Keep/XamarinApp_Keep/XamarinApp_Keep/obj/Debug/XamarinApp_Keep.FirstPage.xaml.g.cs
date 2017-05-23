@@ -11,8 +11,8 @@
 namespace XamarinApp_Keep {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\brebu\\Source\\Repos\\TeamProject\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinAp" +
-        "p_Keep\\FirstPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Tomáš\\Source\\Repos\\TeamProject_Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_K" +
+        "eep\\XamarinApp_Keep\\FirstPage.xaml")]
     public partial class FirstPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
