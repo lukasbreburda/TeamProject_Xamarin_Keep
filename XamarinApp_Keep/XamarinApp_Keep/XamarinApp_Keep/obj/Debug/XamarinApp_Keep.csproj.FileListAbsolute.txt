@@ -1,0 +1,15 @@
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\XamarinApp_Keep.dll
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\XamarinApp_Keep.pdb
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.csprojResolveAssemblyReference.cache
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.MainPage.xaml.g.cs
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.App.xaml.g.cs
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.dll
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.pdb
