@@ -14,6 +14,7 @@ namespace XamarinApp_Keep
     {
         string email = ""; //Smety doplníš vstup
         int type_pass = 0; //smety doplníš vstup
+        string password = ""; //Smety doplní vstup
         public FirstPage()
         {
             InitializeComponent();
@@ -26,21 +27,20 @@ namespace XamarinApp_Keep
             item.email = email;
             item.type_pasword = type_pass;
             App.Data.SaveUser(item);
-            int bla = 1;
 
                if (type_pass == 1) {
                 pin_password pass = new pin_password();
                 pass.ID = 1;
                 pass.id_user = 1;
-                pass.password = //smety doplní input
-                App.Data.SavePinPass(pass).Result;
+                pass.password = Int32.Parse(password);
+                App.Data.SavePinPass(pass);
 
                }else{
                 text_password pass = new text_password();
                 pass.ID = 1;
                 pass.id_user = 1;
-                pass.password = //smety doplní input
-                App.Data.SaveTextPass(pass).Result;
+                pass.password = password;
+                App.Data.SaveTextPass(pass);
                }
 
                 
