@@ -13,7 +13,15 @@ namespace XamarinApp_Keep
         {
             InitializeComponent();
 
-            MainPage = new XamarinApp_Keep.MainPage();
+            int users = Data.back_users().Result.Count;
+            if(users == 0)
+            {
+                MainPage = new XamarinApp_Keep.FirstPage();
+            }else
+            {
+                MainPage = new XamarinApp_Keep.MainPage();
+            }
+           
         }
 
         protected override void OnStart()
@@ -29,6 +37,20 @@ namespace XamarinApp_Keep
         protected override void OnResume()
         {
             // Handle when your app resumes
+        }
+        private static Database _data;
+
+        public static Database Data
+        {
+            get
+            {
+                if (_data == null)
+                {
+                    _data = new Database(DependencyService.Get<IFileHelper>().GetLocalFilePath("keep.db3"));
+                    
+                }
+                return _data;
+            }
         }
     }
 }

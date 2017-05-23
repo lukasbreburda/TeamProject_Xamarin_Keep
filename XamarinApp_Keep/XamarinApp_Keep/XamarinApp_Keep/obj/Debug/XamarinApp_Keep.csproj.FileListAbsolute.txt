@@ -13,3 +13,9 @@ C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinA
 C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.App.xaml.g.cs
 C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.dll
 C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.pdb
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\SQLite-net.dll
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\SQLite-net.xml
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.FirstPage.xaml.g.cs

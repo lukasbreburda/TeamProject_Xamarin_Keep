@@ -1,0 +1,2 @@
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.UWP\XamarinApp_Keep.UWP.csproj;x86
+C:\Users\brebu\Source\Repos\TeamProject\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.csproj;neutral

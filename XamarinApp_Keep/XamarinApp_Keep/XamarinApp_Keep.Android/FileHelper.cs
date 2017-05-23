@@ -10,6 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using System.IO;
+using XamarinApp_Keep.Droid;
 
 [assembly: Xamarin.Forms.Dependency(typeof(FileHelper))]
 namespace XamarinApp_Keep.Droid

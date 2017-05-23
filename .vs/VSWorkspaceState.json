@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\XamarinTeam_Keep",
-    "\\XamarinTeam_Keep\\XamarinTeam_Keep",
-    "\\XamarinTeam_Keep\\XamarinTeam_Keep\\XamarinTeam_Keep"
+    "\\XamarinApp_Keep",
+    "\\XamarinTeam_Keep\\packages"
   ],
-  "SelectedNode": "\\XamarinTeam_Keep\\XamarinTeam_Keep.sln",
+  "SelectedNode": "\\XamarinApp_Keep\\XamarinApp_Keep.sln",
   "PreviewInSolutionExplorer": false
 }
