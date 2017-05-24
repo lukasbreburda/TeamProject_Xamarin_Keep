@@ -3,9 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XamarinApp_Keep"
              x:Class="XamarinApp_Keep.MainPage">
-
-	<Label Text="Welcome to Xamarin Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Sign Up" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Entry x:Name="emailEntry" Placeholder="Email" VerticalOptions="Center" />
+            <Entry x:Name="passwordEntry" IsPassword="true" VerticalOptions="Center"/>
+            <Button Text="Login" VerticalOptions="End"/>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>
