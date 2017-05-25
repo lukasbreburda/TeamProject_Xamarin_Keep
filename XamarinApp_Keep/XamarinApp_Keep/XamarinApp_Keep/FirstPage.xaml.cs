@@ -12,15 +12,15 @@ namespace XamarinApp_Keep
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class FirstPage : ContentPage
     {
-        string email = ""; //Smety doplníš vstup
-        int type_pass = 0; //smety doplníš vstup
-        string password = ""; //Smety doplní vstup
+        string email;
+        int type_pass;
+        string password;
         public FirstPage()
         {
             InitializeComponent();
 
         }
-        private void register()
+               private void register()
         {
             user item = new user();
             item.ID = 1;
@@ -44,6 +44,14 @@ namespace XamarinApp_Keep
                }
 
                 
+        }
+
+        private void reg_fn(object sender, EventArgs e)
+        {
+            email = emailEntry.Text;
+            password = emailEntry.Text;
+            
+            register();
         }
     }
 }
