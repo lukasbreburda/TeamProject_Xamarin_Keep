@@ -8,8 +8,14 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
             <Entry x:Name="emailEntry" Placeholder="Email" VerticalOptions="Center" />
+            <Picker VerticalOptions="Center" >
+                <Picker.Items>
+                    <x:String >PIN</x:String>
+                    <x:String >Heslo</x:String>
+                </Picker.Items>
+            </Picker>
             <Entry x:Name="passwordEntry" IsPassword="true" VerticalOptions="Center"/>
-            <Button Text="Registrace" VerticalOptions="End"/>
+            <Button Text="Registrace" VerticalOptions="End" Clicked="reg_fn"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
