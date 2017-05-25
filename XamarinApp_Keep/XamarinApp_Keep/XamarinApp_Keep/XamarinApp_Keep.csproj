@@ -38,6 +38,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Categories.xaml.cs">
+      <DependentUpon>Categories.xaml</DependentUpon>
+    </Compile>
     <Compile Include="category.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="FirstPage.xaml.cs">
@@ -50,9 +53,6 @@
     </Compile>
     <Compile Include="NotePage.xaml.cs">
       <DependentUpon>NotePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Pin.xaml.cs">
-      <DependentUpon>Pin.xaml</DependentUpon>
     </Compile>
     <Compile Include="pin_password.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -102,13 +102,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Pin.xaml">
+    <EmbeddedResource Include="NotePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="NotePage.xaml">
+    <EmbeddedResource Include="Categories.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

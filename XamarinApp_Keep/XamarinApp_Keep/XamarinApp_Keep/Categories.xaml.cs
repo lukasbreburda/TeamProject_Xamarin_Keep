@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace XamarinApp_Keep
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Pin : ContentPage
+    public partial class Categories : ContentPage
     {
-        public Pin()
+        public Categories()
         {
             InitializeComponent();
         }
