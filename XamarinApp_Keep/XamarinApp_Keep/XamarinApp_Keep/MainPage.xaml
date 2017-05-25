@@ -9,7 +9,12 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
-            <Entry x:Name="emailEntry" Placeholder="Email" VerticalOptions="Center" />
+            <Picker VerticalOptions="Center" BackgroundColor="White" >
+                <Picker.Items>
+                    <x:String >PIN</x:String>
+                    <x:String >Heslo</x:String>
+                </Picker.Items>
+            </Picker>
             <Entry x:Name="passwordEntry" IsPassword="true" VerticalOptions="Center"/>
             <Button Text="Login" VerticalOptions="End"/>
         </StackLayout>
