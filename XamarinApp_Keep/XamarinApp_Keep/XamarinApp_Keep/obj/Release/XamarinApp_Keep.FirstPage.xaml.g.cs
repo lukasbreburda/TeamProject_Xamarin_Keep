@@ -11,13 +11,13 @@
 namespace XamarinApp_Keep {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\brebu\\Source\\Repos\\TeamProject\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinAp" +
-        "p_Keep\\FirstPage.xaml")]
-    public partial class MainPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\users\\tomáš\\source\\repos\\teamproject_xamarin_keep\\xamarinapp_keep\\xamarinapp_k" +
+        "eep\\xamarinapp_keep\\FirstPage.xaml")]
+    public partial class FirstPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(FirstPage));
         }
     }
 }
