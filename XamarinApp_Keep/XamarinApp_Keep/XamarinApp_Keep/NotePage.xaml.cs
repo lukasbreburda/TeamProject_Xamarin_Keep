@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace XamarinApp_Keep
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class NotePage : ContentPage
+    public partial class NotePage : MasterDetailPage
     {
         public NotePage()
         {
