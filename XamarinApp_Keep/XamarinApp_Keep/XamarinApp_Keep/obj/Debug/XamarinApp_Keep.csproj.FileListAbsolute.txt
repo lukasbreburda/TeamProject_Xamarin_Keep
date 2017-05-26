@@ -61,3 +61,4 @@ C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_
 C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\Tomáš\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.NotePage.xaml.g.cs
