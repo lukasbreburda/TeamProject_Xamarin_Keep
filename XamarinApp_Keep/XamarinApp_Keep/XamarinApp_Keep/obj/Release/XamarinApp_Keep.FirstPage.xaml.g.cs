@@ -11,21 +11,13 @@
 namespace XamarinApp_Keep {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Tomáš\\Source\\Repos\\TeamProject_Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_K" +
-        "eep\\XamarinApp_Keep\\FirstPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("c:\\users\\tomáš\\source\\repos\\teamproject_xamarin_keep\\xamarinapp_keep\\xamarinapp_k" +
+        "eep\\xamarinapp_keep\\FirstPage.xaml")]
     public partial class FirstPage : global::Xamarin.Forms.ContentPage {
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry emailEntry;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry passwordEntry;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(FirstPage));
-            emailEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "emailEntry");
-            passwordEntry = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "passwordEntry");
         }
     }
 }
