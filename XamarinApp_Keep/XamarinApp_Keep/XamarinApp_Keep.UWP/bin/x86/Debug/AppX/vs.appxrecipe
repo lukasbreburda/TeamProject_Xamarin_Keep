@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Tomáš\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-28T14:37:59.158</Modified>
+      <Modified>2017-05-28T21:01:37.837</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Tomáš\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.UWP\bin\x86\Debug\XamarinApp_Keep.UWP.exe">
       <PackagePath>entrypoint\XamarinApp_Keep.UWP.exe</PackagePath>
-      <Modified>2017-05-28T14:37:55.618</Modified>
+      <Modified>2017-05-28T21:01:33.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tomáš\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -545,7 +545,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tomáš\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\XamarinApp_Keep.dll">
       <PackagePath>XamarinApp_Keep.dll</PackagePath>
-      <Modified>2017-05-28T14:37:48.602</Modified>
+      <Modified>2017-05-28T20:17:44.429</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tomáš\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -724,7 +724,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tomáš\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.UWP\bin\x86\Debug\Core\XamarinApp_Keep.UWP.exe">
       <PackagePath>XamarinApp_Keep.UWP.exe</PackagePath>
-      <Modified>2017-05-28T14:37:59.146</Modified>
+      <Modified>2017-05-28T21:01:37.816</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
