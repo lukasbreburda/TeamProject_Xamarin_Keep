@@ -12,6 +12,7 @@ namespace XamarinApp_Keep
         public MainPage()
         {
             InitializeComponent();
+
         }
     }
 }

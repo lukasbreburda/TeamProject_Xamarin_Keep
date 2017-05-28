@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinApp_Keep.MasterPage"
+             Title="MasterPage"
+             MasterBehavior="Popover">
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10" BackgroundColor="#CFD8DC" Title="Master">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Label Text="Menu" ></Label>
+                    <Button Text="Home" Clicked="Handle_Clicked"></Button>
+                    <Button Text="Categories" Clicked="Handle_Clicked2"></Button>
+                    <Button Text="Testing_Page" Clicked="Handle_Clicked3"></Button>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage Padding="10">
+            <ContentPage.Content>
+                <StackLayout Margin="5,30,5,5">
+                    <Label Text="Detail Page" ></Label>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
