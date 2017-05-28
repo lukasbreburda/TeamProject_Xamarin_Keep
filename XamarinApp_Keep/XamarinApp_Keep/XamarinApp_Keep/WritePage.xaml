@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XamarinApp_Keep.WritePage">
+             x:Class="XamarinApp_Keep.WritePage"
+             Title="WritePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Editor Text="Napište něco....." FontSize="Small" FontFamily="Arial" HeightRequest="200"></Editor>
+            <Button Text="Zapsat poznámku"></Button>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

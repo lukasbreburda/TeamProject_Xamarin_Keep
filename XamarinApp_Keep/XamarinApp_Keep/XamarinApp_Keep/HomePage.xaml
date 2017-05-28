@@ -4,6 +4,8 @@
              x:Class="XamarinApp_Keep.HomePage"
              Title="HomePage">
     <ContentPage.Content>
-        <Label Text="Welcome to Xamarin App - Keep"></Label>
+        <StackLayout>
+            <Button Text="Vytvořit poznámku" BackgroundColor="Red" Clicked="Handle_Clicked"></Button>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

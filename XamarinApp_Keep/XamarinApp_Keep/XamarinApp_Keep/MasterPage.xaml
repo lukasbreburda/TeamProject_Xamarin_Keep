@@ -5,7 +5,7 @@
              Title="MasterPage"
              MasterBehavior="Popover">
     <MasterDetailPage.Master>
-        <ContentPage Padding="10" BackgroundColor="#CFD8DC" Title="Master">
+        <ContentPage Padding="10" BackgroundColor="White" Title="Master">
             <ContentPage.Content>
                 <StackLayout Margin="5,30,5,5">
                     <Label Text="Menu" ></Label>

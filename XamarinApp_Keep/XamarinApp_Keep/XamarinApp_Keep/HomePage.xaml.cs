@@ -16,5 +16,10 @@ namespace XamarinApp_Keep
         {
             InitializeComponent();
         }
+
+        void Handle_Clicked (object sender, System.EventArgs e)
+        {
+          
+        }
     }
 }

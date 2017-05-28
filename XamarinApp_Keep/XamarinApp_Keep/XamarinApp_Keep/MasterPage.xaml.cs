@@ -34,7 +34,7 @@ namespace XamarinApp_Keep
 
         void Handle_Clicked3(object sender, System.EventArgs e)
         {
-            Detail = new NavigationPage(new Testing_Page());
+            Detail = new NavigationPage(new WritePage());
             IsPresented = false;
         }
     }
