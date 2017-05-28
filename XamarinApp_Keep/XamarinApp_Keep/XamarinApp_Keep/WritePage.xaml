@@ -6,7 +6,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Editor Text="Napište něco....." FontSize="Small" FontFamily="Arial" HeightRequest="200"></Editor>
-            <Button Text="Zapsat poznámku"></Button>
+            <Button Text="Zapsat poznámku" BackgroundColor="#2196F3" TextColor="White"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
