@@ -11,6 +11,7 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Margin="0,200,0,0" Spacing="15">
+            <Label x:Name="cun" Text="nic"></Label>
             <Picker VerticalOptions="Center" BackgroundColor="White" >
                 <Picker.Items>
                     <x:String >PIN</x:String>

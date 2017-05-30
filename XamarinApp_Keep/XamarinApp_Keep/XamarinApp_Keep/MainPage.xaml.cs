@@ -12,7 +12,8 @@ namespace XamarinApp_Keep
         public MainPage()
         {
             InitializeComponent();
-
+            int users = App.Data.back_users().Result.Count;
+            cun.Text = users.ToString();
         }
     }
 }

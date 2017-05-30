@@ -16,11 +16,12 @@ namespace XamarinApp_Keep
         {
             database = new SQLiteAsyncConnection(dbPath);
             database.CreateTableAsync<keep>().Wait();
-            Debug.WriteLine(dbPath);
+            
             database.CreateTableAsync<category>().Wait();
             database.CreateTableAsync<user>().Wait();
             database.CreateTableAsync<pin_password>().Wait();
             database.CreateTableAsync<text_password>().Wait();
+            Debug.WriteLine(dbPath);
         }
         
 
@@ -34,15 +35,9 @@ namespace XamarinApp_Keep
             return database.QueryAsync<user>("SELECT * FROM [user]");
         }
         public Task<int> SaveUser(user item)
-        {
-            if (item.ID != 0)
-            {
-                return database.UpdateAsync(item);
-            }
-            else
-            {
+        {           
                 return database.InsertAsync(item);
-            }
+            
         }
         public Task<int> SavePinPass(pin_password pass)
         {

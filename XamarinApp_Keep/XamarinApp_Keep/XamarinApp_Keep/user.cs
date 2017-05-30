@@ -9,7 +9,7 @@ namespace XamarinApp_Keep
 {
     public class user
     {
-        [PrimaryKey, AutoIncrement]
+        [PrimaryKey,]
         public int ID { get; set; }
         public string email { get; set; }
         public int type_pasword { get; set; }

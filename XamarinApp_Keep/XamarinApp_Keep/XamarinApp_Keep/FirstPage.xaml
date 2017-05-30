@@ -11,8 +11,8 @@
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Spacing="15">
             <Entry x:Name="emailEntry" Placeholder="Email" VerticalOptions="Center" Keyboard="Email" Margin="0,200,0,0" BackgroundColor="White"/>
-            <Picker VerticalOptions="Center" BackgroundColor="White" >
-                <Picker.Items>
+            <Picker x:Name="pass" VerticalOptions="Center" BackgroundColor="White" SelectedIndexChanged="columnPicker_SelectedIndexChanged">
+                <Picker.Items >
                     <x:String >PIN</x:String>
                     <x:String >Heslo</x:String>
                 </Picker.Items>

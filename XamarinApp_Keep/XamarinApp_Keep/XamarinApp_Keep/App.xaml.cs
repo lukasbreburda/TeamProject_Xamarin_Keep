@@ -16,10 +16,10 @@ namespace XamarinApp_Keep
             int users = Data.back_users().Result.Count;
             if(users == 0)
             {
-                MainPage = new XamarinApp_Keep.MasterPage();
+                MainPage =new NavigationPage(new XamarinApp_Keep.FirstPage());
             }else
             {
-                MainPage = new XamarinApp_Keep.FirstPage();
+                MainPage =new NavigationPage(new XamarinApp_Keep.MainPage());
             }
            
         }
