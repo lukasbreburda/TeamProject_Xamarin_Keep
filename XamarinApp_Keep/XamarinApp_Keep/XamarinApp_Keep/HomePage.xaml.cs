@@ -21,5 +21,10 @@ namespace XamarinApp_Keep
         {
           
         }
+
+        void Handle_Clicked2(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
