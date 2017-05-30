@@ -1,21 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XamarinApp_Keep.FirstPage">
+             x:Class="XamarinApp_Keep.FirstPage"
+             Title="FirstPage"
+             BackgroundColor="White">
+    
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Sign Up" />
+        <ToolbarItem Text="Sign Up" Clicked="reg_fn"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical">
-            <Entry x:Name="emailEntry" Placeholder="Email" VerticalOptions="Center" />
-            <Picker VerticalOptions="Center" >
+        <StackLayout Orientation="Vertical" Spacing="15">
+            <Entry x:Name="emailEntry" Placeholder="Email" VerticalOptions="Center" Keyboard="Email" Margin="0,200,0,0" BackgroundColor="White"/>
+            <Picker VerticalOptions="Center" BackgroundColor="White" >
                 <Picker.Items>
                     <x:String >PIN</x:String>
                     <x:String >Heslo</x:String>
                 </Picker.Items>
             </Picker>
-            <Entry x:Name="passwordEntry" IsPassword="true" VerticalOptions="Center"/>
-            <Button Text="Registrace" VerticalOptions="End" Clicked="reg_fn"/>
+            <Entry x:Name="passwordEntry" IsPassword="true" VerticalOptions="Center" BackgroundColor="White"/>
+            <Button Text="Registrace" VerticalOptions="Center" Clicked="reg_fn" WidthRequest ="70" BackgroundColor="#4285f4"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
