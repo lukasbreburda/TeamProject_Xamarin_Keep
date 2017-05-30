@@ -64,11 +64,14 @@ namespace XamarinApp_Keep
 
         private void reg_fn(object sender, EventArgs e)
         {
-            email = emailEntry.Text;
-            password = passwordEntry.Text;
-            type_pass = pass.SelectedIndex;            
-            register();
-            Navigation.PushAsync(new XamarinApp_Keep.MainPage());
+        
+           
+                email = emailEntry.Text;
+                password = passwordEntry.Text;
+                type_pass = pass.SelectedIndex;
+                register();
+                Navigation.PushAsync(new XamarinApp_Keep.MainPage());
+
 
         }
     }

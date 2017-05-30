@@ -41,25 +41,16 @@ namespace XamarinApp_Keep
         }
         public Task<int> SavePinPass(pin_password pass)
         {
-            if (pass.ID != 0)
-            {
-                return database.UpdateAsync(pass);
-            }
-            else
-            {
+           
                 return database.InsertAsync(pass);
-            }
+            
         }
         public Task<int> SaveTextPass(text_password pass)
         {
-            if (pass.ID != 0)
-            {
-                return database.UpdateAsync(pass);
-            }
-            else
-            {
+           
+            
                 return database.InsertAsync(pass);
-            }
+            
         }
 
         public Task<List<keep>> GetItemsNotDoneAsync()

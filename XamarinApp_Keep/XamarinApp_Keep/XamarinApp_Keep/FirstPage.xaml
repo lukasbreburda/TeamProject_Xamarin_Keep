@@ -10,9 +10,11 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Spacing="15">
+            <Label x:Name="er" Text=""></Label>
             <Entry x:Name="emailEntry" Placeholder="Email" VerticalOptions="Center" Keyboard="Email" Margin="0,200,0,0" BackgroundColor="White"/>
             <Picker x:Name="pass" VerticalOptions="Center" BackgroundColor="White" SelectedIndexChanged="columnPicker_SelectedIndexChanged">
-                <Picker.Items >
+                
+                    <Picker.Items >
                     <x:String >PIN</x:String>
                     <x:String >Heslo</x:String>
                 </Picker.Items>
