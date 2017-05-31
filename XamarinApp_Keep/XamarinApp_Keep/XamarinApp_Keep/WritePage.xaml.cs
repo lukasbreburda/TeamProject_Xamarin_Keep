@@ -16,5 +16,10 @@ namespace XamarinApp_Keep
         {
             InitializeComponent();
         }
+
+        void columnPicker_SelectedIndexChanged(object sensder, EventArgs e)
+        {
+
+        }
     }
 }

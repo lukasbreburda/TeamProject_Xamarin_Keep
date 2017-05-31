@@ -13,14 +13,13 @@
             <Label x:Name="er" Text=""></Label>
             <Entry x:Name="emailEntry" Placeholder="Email" VerticalOptions="Center" Keyboard="Email" Margin="0,200,0,0" BackgroundColor="White"/>
             <Picker x:Name="pass" VerticalOptions="Center" BackgroundColor="White" SelectedIndexChanged="columnPicker_SelectedIndexChanged">
-                
-                    <Picker.Items >
+                <Picker.Items >
                     <x:String >PIN</x:String>
                     <x:String >Heslo</x:String>
                 </Picker.Items>
             </Picker>
             <Entry x:Name="passwordEntry" IsPassword="true" VerticalOptions="Center" BackgroundColor="White"/>
-            <Button Text="Registrace" VerticalOptions="Center" Clicked="reg_fn" WidthRequest ="70" BackgroundColor="#2196F3"/>
+            <Button Text="Registrace" VerticalOptions="Center" Clicked="reg_fn" WidthRequest ="70" BackgroundColor="#2196F3" TextColor="White"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

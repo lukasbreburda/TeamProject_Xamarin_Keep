@@ -19,7 +19,7 @@
                 </Picker.Items>
             </Picker>
             <Entry x:Name="passwordEntry" IsPassword="true" VerticalOptions="Center" BackgroundColor="White"/>
-            <Button Text="Login" Clicked="Button_Clicked" VerticalOptions="End" BackgroundColor="#2196F3" WidthRequest="50"/>
+            <Button Text="Login" Clicked="Button_Clicked" VerticalOptions="End" BackgroundColor="#2196F3" TextColor="White" WidthRequest="50"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

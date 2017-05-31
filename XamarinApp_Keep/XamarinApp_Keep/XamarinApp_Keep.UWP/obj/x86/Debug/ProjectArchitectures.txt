@@ -1,2 +1,2 @@
-C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.UWP\XamarinApp_Keep.UWP.csproj;x86
-C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.csproj;neutral
+D:\smetato14\Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.UWP\XamarinApp_Keep.UWP.csproj;x86
+D:\smetato14\Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.csproj;neutral

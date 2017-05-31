@@ -11,6 +11,17 @@
                     <Label Text="Menu" ></Label>
                     <Button Text="Home" BackgroundColor="#2196F3" TextColor="White" Clicked="Handle_Clicked"></Button>
                     <Button Text="Categories" BackgroundColor="#2196F3" TextColor="White" Clicked="Handle_Clicked2"></Button>
+                    <ListView x:Name="listview" RowHeight="20">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Orientation="Vertical">
+                                        <Label Text="Vše"></Label>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate> 
+                    </ListView>
                     <Button Text="Testing_Page" BackgroundColor="#2196F3" TextColor="White" Clicked="Handle_Clicked3"></Button>
                 </StackLayout>
             </ContentPage.Content>
