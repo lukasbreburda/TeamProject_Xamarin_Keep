@@ -7,6 +7,11 @@
         <StackLayout>
             <Editor Text="Napište něco....." FontSize="Small" FontFamily="Arial" HeightRequest="200"></Editor>
             <Button Text="Zapsat poznámku" BackgroundColor="#2196F3" TextColor="White"></Button>
+            <Picker x:Name="categories_picker" VerticalOptions="Center" BackgroundColor="White" SelectedIndexChanged="columnPicker_SelectedIndexChanged">
+                <Picker.Items >
+                    <x:String >Vše</x:String>
+                </Picker.Items>
+            </Picker>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

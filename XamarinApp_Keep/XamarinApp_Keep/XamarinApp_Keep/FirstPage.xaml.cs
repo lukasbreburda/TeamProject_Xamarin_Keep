@@ -20,7 +20,7 @@ namespace XamarinApp_Keep
             InitializeComponent();
 
         }
-               private void register()
+        private void register()
         {
             user item = new user();
             item.ID = 1;
@@ -28,7 +28,7 @@ namespace XamarinApp_Keep
             item.type_pasword = type_pass;
             App.Data.SaveUser(item);
 
-               if (type_pass == 1) {
+               if (type_pass == 0) {
                 pin_password pass = new pin_password();
                 pass.ID = 1;
                 pass.id_user = 1;
@@ -45,13 +45,34 @@ namespace XamarinApp_Keep
 
                 
         }
+        private void columnPicker_SelectedIndexChanged(object sensder, EventArgs e)
+        {
+            type_pass = pass.SelectedIndex;
+            if (type_pass == 0)
+            {
+                passwordEntry.Keyboard = Keyboard.Numeric;
+            }
+            else if (type_pass == 1)
+            {
+                passwordEntry.Keyboard = Keyboard.Text;
+            }
+            else
+            {
+                passwordEntry.Keyboard = Keyboard.Default;
+            }
+        }
 
         private void reg_fn(object sender, EventArgs e)
         {
-            email = emailEntry.Text;
-            password = emailEntry.Text;
-            
-            register();
+        
+           
+                email = emailEntry.Text;
+                password = passwordEntry.Text;
+                type_pass = pass.SelectedIndex;
+                register();
+                Navigation.PushAsync(new XamarinApp_Keep.MainPage());
+
+
         }
     }
 }

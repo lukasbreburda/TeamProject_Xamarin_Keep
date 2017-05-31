@@ -16,11 +16,12 @@ namespace XamarinApp_Keep
         {
             database = new SQLiteAsyncConnection(dbPath);
             database.CreateTableAsync<keep>().Wait();
-            Debug.WriteLine(dbPath);
+            
             database.CreateTableAsync<category>().Wait();
             database.CreateTableAsync<user>().Wait();
             database.CreateTableAsync<pin_password>().Wait();
             database.CreateTableAsync<text_password>().Wait();
+            Debug.WriteLine(dbPath);
         }
         
 
@@ -33,38 +34,31 @@ namespace XamarinApp_Keep
         {
             return database.QueryAsync<user>("SELECT * FROM [user]");
         }
-        public Task<int> SaveUser(user item)
+        public Task<List<pin_password>> login_back_pin()
         {
-            if (item.ID != 0)
-            {
-                return database.UpdateAsync(item);
-            }
-            else
-            {
+            return database.QueryAsync<pin_password>("SELECT * FROM [pin_password] WHERE id_user='1'");
+        }
+        public Task<List<text_password>> login_back_text()
+        {
+            return database.QueryAsync<text_password>("SELECT * FROM [text_password] WHERE id_user='1'");
+        }
+        public Task<int> SaveUser(user item)
+        {           
                 return database.InsertAsync(item);
-            }
+            
         }
         public Task<int> SavePinPass(pin_password pass)
         {
-            if (pass.ID != 0)
-            {
-                return database.UpdateAsync(pass);
-            }
-            else
-            {
+           
                 return database.InsertAsync(pass);
-            }
+            
         }
         public Task<int> SaveTextPass(text_password pass)
         {
-            if (pass.ID != 0)
-            {
-                return database.UpdateAsync(pass);
-            }
-            else
-            {
+           
+            
                 return database.InsertAsync(pass);
-            }
+            
         }
 
         public Task<List<keep>> GetItemsNotDoneAsync()

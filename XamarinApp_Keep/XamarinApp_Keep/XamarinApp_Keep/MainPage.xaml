@@ -11,14 +11,15 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" Margin="0,200,0,0" Spacing="15">
-            <Picker VerticalOptions="Center" BackgroundColor="White" >
+            <Label x:Name="cun" Text="nic"></Label>
+            <Picker x:Name="pass" VerticalOptions="Center" BackgroundColor="White" SelectedIndexChanged="SelectedIndexChanged">
                 <Picker.Items>
                     <x:String >PIN</x:String>
                     <x:String >Heslo</x:String>
                 </Picker.Items>
             </Picker>
             <Entry x:Name="passwordEntry" IsPassword="true" VerticalOptions="Center" BackgroundColor="White"/>
-            <Button Text="Login" VerticalOptions="End" BackgroundColor="#4285f4" WidthRequest="50"/>
+            <Button Text="Login" Clicked="Button_Clicked" VerticalOptions="End" BackgroundColor="#2196F3" TextColor="White" WidthRequest="50"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
