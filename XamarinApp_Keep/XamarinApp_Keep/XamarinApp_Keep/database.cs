@@ -34,6 +34,14 @@ namespace XamarinApp_Keep
         {
             return database.QueryAsync<user>("SELECT * FROM [user]");
         }
+        public Task<List<pin_password>> login_back_pin()
+        {
+            return database.QueryAsync<pin_password>("SELECT * FROM [pin_password] WHERE id_user='1'");
+        }
+        public Task<List<text_password>> login_back_text()
+        {
+            return database.QueryAsync<text_password>("SELECT * FROM [text_password] WHERE id_user='1'");
+        }
         public Task<int> SaveUser(user item)
         {           
                 return database.InsertAsync(item);
