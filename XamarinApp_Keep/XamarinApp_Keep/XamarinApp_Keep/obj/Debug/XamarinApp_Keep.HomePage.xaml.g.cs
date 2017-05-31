@@ -11,8 +11,8 @@
 namespace XamarinApp_Keep {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Tomáš\\Source\\Repos\\TeamProject_Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_K" +
-        "eep\\XamarinApp_Keep\\HomePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\smetato14\\Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\HomePag" +
+        "e.xaml")]
     public partial class HomePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -20,7 +20,7 @@
                 </Picker.Items>
             </Picker>
             <Entry x:Name="passwordEntry" IsPassword="true" VerticalOptions="Center" BackgroundColor="White"/>
-            <Button Text="Registrace" VerticalOptions="Center" Clicked="reg_fn" WidthRequest ="70" BackgroundColor="#4285f4"/>
+            <Button Text="Registrace" VerticalOptions="Center" Clicked="reg_fn" WidthRequest ="70" BackgroundColor="#2196F3"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
