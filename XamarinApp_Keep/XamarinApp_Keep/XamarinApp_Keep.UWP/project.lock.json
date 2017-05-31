@@ -23602,20 +23602,20 @@
     "UAP,Version=v10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\smetato14\\.nuget\\packages\\": {}
+    "C:\\Users\\Tomáš\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\smetato14\\Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep.UWP\\XamarinApp_Keep.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Tomáš\\Source\\Repos\\TeamProject_Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep.UWP\\XamarinApp_Keep.UWP.csproj",
       "projectName": "XamarinApp_Keep.UWP",
-      "projectPath": "D:\\smetato14\\Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep.UWP\\XamarinApp_Keep.UWP.csproj",
-      "projectJsonPath": "D:\\smetato14\\Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep.UWP\\project.json",
+      "projectPath": "C:\\Users\\Tomáš\\Source\\Repos\\TeamProject_Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep.UWP\\XamarinApp_Keep.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\Tomáš\\Source\\Repos\\TeamProject_Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "D:\\smetato14\\Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep.csproj": {
-              "projectPath": "D:\\smetato14\\Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep.csproj"
+            "C:\\Users\\Tomáš\\Source\\Repos\\TeamProject_Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep.csproj": {
+              "projectPath": "C:\\Users\\Tomáš\\Source\\Repos\\TeamProject_Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep.csproj"
             }
           }
         }

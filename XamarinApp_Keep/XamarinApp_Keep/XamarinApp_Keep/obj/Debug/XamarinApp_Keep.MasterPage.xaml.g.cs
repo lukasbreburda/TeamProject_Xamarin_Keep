@@ -11,8 +11,8 @@
 namespace XamarinApp_Keep {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\smetato14\\Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\XamarinApp_Keep\\MasterP" +
-        "age.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Tomáš\\Source\\Repos\\TeamProject_Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_K" +
+        "eep\\XamarinApp_Keep\\MasterPage.xaml")]
     public partial class MasterPage : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

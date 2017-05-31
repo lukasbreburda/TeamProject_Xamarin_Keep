@@ -4,6 +4,9 @@
              x:Class="XamarinApp_Keep.Categories"
              Title="Categories">
     <ContentPage.Content>
-        <Label Text="Categories"></Label>
+        <StackLayout Orientation="Vertical" Spacing="15">
+            <Entry x:Name="categoriesEntry" Placeholder="Kategorie" VerticalOptions="Center" Margin="0,200,0,0" BackgroundColor="White"/>
+            <Button Text="Vytvořit Kategorii" VerticalOptions="Center" BackgroundColor="#2196F3" TextColor="White"/>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
