@@ -168,6 +168,7 @@ C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_
 C:\Users\Tomáš\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.Android\obj\Debug\res\drawable\note.png
 C:\Users\Tomáš\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.Android\obj\Debug\XamarinApp_Keep.Android.dll.mdb
 C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.Android\obj\Debug\res\drawable\note.png
+C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.Android\obj\Debug\XamarinApp_Keep.Android.dll.mdb
 D:\smetato14\Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.Android\bin\Debug\XamarinApp_Keep.Android.dll
 D:\smetato14\Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.Android\bin\Debug\XamarinApp_Keep.Android.pdb
 D:\smetato14\Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.Android\bin\Debug\XamarinApp_Keep.Android.apk
@@ -253,5 +254,4 @@ D:\smetato14\Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.Androi
 D:\smetato14\Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.Android\obj\Debug\android\assets\XamarinApp_Keep.Android.dll.mdb
 D:\smetato14\Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.Android\obj\Debug\android\assets\XamarinApp_Keep.dll.mdb
 D:\smetato14\Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.Android\obj\Debug\XamarinApp_Keep.Android.dll.mdb
-C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.Android\obj\Debug\XamarinApp_Keep.Android.dll.mdb
-C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.Android\bin\Debug\XamarinApp_Keep.Android.dll.mdb
+D:\smetato14\Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep.Android\bin\Debug\XamarinApp_Keep.Android.dll.mdb
