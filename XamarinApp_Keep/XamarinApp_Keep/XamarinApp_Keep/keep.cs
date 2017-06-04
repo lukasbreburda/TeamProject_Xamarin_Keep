@@ -12,9 +12,12 @@ namespace XamarinApp_Keep
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
         public string text { get; set; }
-        public string time { get; set; }
+        public int time { get; set; }
         public int kategory { get; set; }
 
-       
+        public override string ToString()
+        {
+            return text + " - " + (time.ToString()) ;
+        }
     }
 }

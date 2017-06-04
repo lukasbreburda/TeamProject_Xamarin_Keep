@@ -5,13 +5,14 @@
              Title="WritePage">
     <ContentPage.Content>
         <StackLayout>
-            <Editor Text="Napište něco....." FontSize="Small" FontFamily="Arial" HeightRequest="200"></Editor>
-            <Button Text="Zapsat poznámku" BackgroundColor="#2196F3" TextColor="White"></Button>
+            <Editor x:Name="keeps" Text="Napište něco....." FontSize="Small" FontFamily="Arial" HeightRequest="200"></Editor>
+           
             <Picker x:Name="categories_picker" VerticalOptions="Center" BackgroundColor="White" SelectedIndexChanged="columnPicker_SelectedIndexChanged">
                 <Picker.Items >
                     <x:String >Vše</x:String>
                 </Picker.Items>
             </Picker>
+            <Button Text="Zapsat poznámku" Clicked="new_keep" BackgroundColor="#2196F3" TextColor="White"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

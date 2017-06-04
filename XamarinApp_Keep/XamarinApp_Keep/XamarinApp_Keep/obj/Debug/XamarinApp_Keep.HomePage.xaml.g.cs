@@ -11,13 +11,17 @@
 namespace XamarinApp_Keep {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\Tomáš\\Source\\Repos\\TeamProject_Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_K" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\brebu\\Source\\Repos\\TeamProject_Xamarin_Keep\\XamarinApp_Keep\\XamarinApp_K" +
         "eep\\XamarinApp_Keep\\HomePage.xaml")]
     public partial class HomePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView listview;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HomePage));
+            listview = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "listview");
         }
     }
 }

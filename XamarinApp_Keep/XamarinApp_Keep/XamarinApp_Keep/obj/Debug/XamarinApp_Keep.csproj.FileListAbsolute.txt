@@ -68,7 +68,6 @@ C:\Users\Tomáš\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinAp
 C:\Users\Tomáš\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.MasterPage.xaml.g.cs
 C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.Categories.xaml.g.cs
 C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.WritePage.xaml.g.cs
-C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.Testing_Page.xaml.g.cs
 C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.HomePage.xaml.g.cs
 C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.MasterPage.xaml.g.cs
 D:\smetato14\Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\XamarinApp_Keep.dll
@@ -99,3 +98,9 @@ D:\smetato14\Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\De
 D:\smetato14\Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.pdb
 C:\Users\Tomáš\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.dll.mdb
 C:\Users\Tomáš\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\XamarinApp_Keep.dll.mdb
+C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.dll.mdb
+C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\XamarinApp_Keep.dll.mdb
+C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.dll.mdb
+C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\XamarinApp_Keep.dll.mdb
+C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\obj\Debug\XamarinApp_Keep.dll.mdb
+C:\Users\brebu\Source\Repos\TeamProject_Xamarin_Keep\XamarinApp_Keep\XamarinApp_Keep\XamarinApp_Keep\bin\Debug\XamarinApp_Keep.dll.mdb

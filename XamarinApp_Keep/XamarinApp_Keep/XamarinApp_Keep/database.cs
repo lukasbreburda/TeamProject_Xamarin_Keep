@@ -47,6 +47,16 @@ namespace XamarinApp_Keep
                 return database.InsertAsync(item);
             
         }
+        public Task<int> SaveKeep(keep item)
+        {
+            return database.InsertAsync(item);
+
+        }
+        public Task<int> NewCat(category item)
+        {
+            return database.InsertAsync(item);
+
+        }
         public Task<int> SavePinPass(pin_password pass)
         {
            
@@ -63,7 +73,7 @@ namespace XamarinApp_Keep
 
         public Task<List<keep>> GetItemsNotDoneAsync()
         {
-            return database.QueryAsync<keep>("SELECT * FROM [keep] WHERE [Done] = 0");
+            return database.QueryAsync<keep>("SELECT * FROM [keep]");
         }
 
         public Task<keep> GetItemAsync(int id)
