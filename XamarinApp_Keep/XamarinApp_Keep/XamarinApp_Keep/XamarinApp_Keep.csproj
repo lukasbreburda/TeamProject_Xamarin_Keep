@@ -59,9 +59,6 @@
     </Compile>
     <Compile Include="pin_password.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Testing_Page.xaml.cs">
-      <DependentUpon>Testing_Page.xaml</DependentUpon>
-    </Compile>
     <Compile Include="text_password.cs" />
     <Compile Include="user.cs" />
     <Compile Include="WritePage.xaml.cs">
@@ -118,12 +115,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="WritePage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Testing_Page.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

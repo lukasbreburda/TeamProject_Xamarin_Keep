@@ -22,9 +22,8 @@
                                     </StackLayout>
                                 </ViewCell>
                             </DataTemplate>
-                        </ListView.ItemTemplate> 
+                        </ListView.ItemTemplate>
                     </ListView>
-                    <Button Text="Testing_Page" BackgroundColor="#2196F3" TextColor="White" Clicked="Handle_Clicked3"></Button>
                 </StackLayout>
             </ContentPage.Content>
         </ContentPage>

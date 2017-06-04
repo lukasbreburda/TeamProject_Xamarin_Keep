@@ -31,11 +31,5 @@ namespace XamarinApp_Keep
             Detail = new NavigationPage(new Categories());
             IsPresented = false;
         }
-
-        void Handle_Clicked3(object sender, System.EventArgs e)
-        {
-            Detail = new NavigationPage(new WritePage());
-            IsPresented = false;
-        }
     }
 }
