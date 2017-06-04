@@ -54,7 +54,7 @@ namespace XamarinApp_Keep
 
                     if (data_pass == password)
                     {
-                        Navigation.PushAsync(new XamarinApp_Keep.HomePage());
+                        Navigation.PushAsync(new XamarinApp_Keep.MasterPage());
                     }
                     else
                     {
@@ -79,7 +79,7 @@ namespace XamarinApp_Keep
 
                     if (data_pass == password)
                     {
-                        Navigation.PushAsync(new XamarinApp_Keep.HomePage());
+                        Navigation.PushAsync(new XamarinApp_Keep.MasterPage());
                     }
                     else
                     {

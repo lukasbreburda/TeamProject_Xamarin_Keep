@@ -19,12 +19,12 @@ namespace XamarinApp_Keep
 
         void Handle_Clicked (object sender, System.EventArgs e)
         {
-          
+            Navigation.PushAsync(new XamarinApp_Keep.WritePage());
         }
 
         void Handle_Clicked2(object sender, System.EventArgs e)
         {
-
+            Navigation.PushAsync(new XamarinApp_Keep.Categories());
         }
     }
 }
