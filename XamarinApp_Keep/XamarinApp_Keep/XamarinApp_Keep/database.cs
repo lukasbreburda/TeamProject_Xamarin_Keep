@@ -29,6 +29,15 @@ namespace XamarinApp_Keep
         {
             return database.Table<keep>().ToListAsync();
         }
+        public Task<List<category>> GeTItemIDK(string itid)
+        {
+            return database.QueryAsync<category>("SELECT * FROM [category] WHERE name ='" + itid + "'");
+        }
+
+        public Task<List<category>> showKategory()
+        {
+            return database.QueryAsync<category>("SELECT * FROM [category]");
+        }
 
         public Task<List<user>> back_users()
         {
